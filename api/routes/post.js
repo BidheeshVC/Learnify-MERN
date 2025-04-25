@@ -23,4 +23,5 @@ router.get("/feed/allposts", getAllPosts);
 router.get("/profile/username/:username", getUserPostsByUsername);
 router.get("/profile/:id", getUserPostsByUserId);
 
+
 module.exports = router;

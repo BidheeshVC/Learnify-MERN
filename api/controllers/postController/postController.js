@@ -148,6 +148,15 @@ const getUserPostsByUserId = async (req, res) => {
     }
 };
 
+// REPORT POST
+const reportPost = async (req, res) =>{
+    try {
+        res.status(200);
+    } catch (error) {
+       console.log("error in report post", error.message) 
+    }
+}
+
 module.exports = {
     createPost,
     updatePost,
