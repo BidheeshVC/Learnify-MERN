@@ -67,7 +67,7 @@ const getUsers = async (req, res) => {
             return other;
         });
 
-        console.log("Sanitized users:", sanitizedUsers);
+        // console.log("Sanitized users:", sanitizedUsers);
         res.status(200).json(sanitizedUsers);
     } catch (err) {
         res.status(500).json(err);
